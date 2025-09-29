@@ -9,11 +9,13 @@ int main(){
     cout << "Enter the value of n : ";
     cin >> n;
 
-    for (int i = 0; i <= n; i++){
-        sum += i;
-    }
+        for (int i = 0; i <= n; i++){
+            if (i % 2 != 0){
+                sum += i;
+            }
+        }
 
-    cout << "sum : " << sum << endl;
+    cout << "sum of odd number is : " << sum << endl;
     
 
     return 0;
