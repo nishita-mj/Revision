@@ -8,10 +8,10 @@ int main(){
     float pi = 3.14;
     int l, b, side, base, height, choice;
 
-    cout << "1. Circle\n";
-    cout << "2. Triangle\n";
-    cout << "3. Square\n";
-    cout << "4. Rectangle\n";
+    cout << "1. Circle" << endl;
+    cout << "2. Triangle" << endl;
+    cout << "3. Square" << endl;
+    cout << "4. Rectangle" << endl;
     cout << "Enter your choice (1-4): ";
     cin >> choice;
 
